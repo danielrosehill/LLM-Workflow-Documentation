@@ -1,6 +1,8 @@
 # Documentation: Working With Large Language Models (V2, Nov 2024)
 ![alt text](images/prompting-sloth.webp)
 
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&logoColor=white)](https://github.com/danielrosehill/LLM-Workflow-Documentation.git)
+
 # You Can Also Find These Docs At...
 
 My documentation now enjoys a colorful dual purpose life, existing both as Github repositories and on a new dedicated site to hosting docs (oh howI love my docs!): [https://docs.bydanielrosehill.com](docs.bydanielrosehill.com).
