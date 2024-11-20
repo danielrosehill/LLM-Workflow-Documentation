@@ -1,4 +1,4 @@
-name: Trigger Dispatch on Push
+name: Notify Parent Repo on Push
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
       - main   
 
 jobs:
-  trigger-dispatch:
+  dispatch:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Send Dispatch Event
+      - name: Trigger Parent Repo Workflow
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PAT }}   
           repository: danielrosehill/Documetation-Root-Repo   
-          event-type: update
+          event-type: update-submodule
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
