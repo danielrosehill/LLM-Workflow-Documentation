@@ -105,3 +105,6 @@ You can access prompt performance by seeing what *results* you got from them!
 
 If you're managing your LLM workspace using flat files (say, Obsidian, VS Code) a common convention is to use `YAML` frontmatter to note parameter elements, including backlinks.
 
+## Prompt Snippets
+
+In addition to full prompts, you can also consider adding prompts snippets.

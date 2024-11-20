@@ -74,7 +74,15 @@ These are instructions that will persist between chats. You can create them with
 
 To centralise your store of information, these should be stored and version controlled.
 
-## Other Things You Might Wish To Store
+## Useful bits and pieces
+
+A simple Github repository can be a great way to collaborate on prompting experiments and use-cases. 
+
+You can consider adding:
+
+- Notes  
+
+## Other possible storage entities (advanced usage)
 
 At my current stage of working with LLMs, the following file structure covers almost all of my needs (prompts, outputs, agent configs, contextual data).
 
