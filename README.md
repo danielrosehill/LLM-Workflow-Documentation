@@ -1,7 +1,7 @@
-# Model "LLM Ops" Workflow Repository (V2, Nov 2024)
+# Documentation: Working With Large Language Models (V2, Nov 2024)
 ![alt text](images/prompting-sloth.webp)
 
-# Published
+# You Can Also Find These Docs At...
 
 My documentation now enjoys a colorful dual purpose life, existing both as Github repositories and on a new dedicated site to hosting docs (oh howI love my docs!): [https://docs.bydanielrosehill.com](docs.bydanielrosehill.com).
 
@@ -9,7 +9,7 @@ My documentation now enjoys a colorful dual purpose life, existing both as Githu
 
 ## Purpose Statement
 
-This repository (created `20-Nov-24`) is an updated repository template for managing workflow and operations with large language models (ie, 'LLM-Ops'), focusing (again) on providing a structured skeleton intended to support the needs (primarily) of those using LLMs professionally and at scale.
+This repository (created `20-Nov-24`) is a repository of documentation for working with large language models focusing (again) on providing a structured skeleton intended to support the needs (primarily) of those using LLMs professionally and at scale.
 
 Some folks who tend to use these tools "on the job" and who are share my fondness for approaching workflows like this systematically include:
 
@@ -19,11 +19,7 @@ Some folks who tend to use these tools "on the job" and who are share my fondnes
 
 To state the obvious:
 
-Like most users I imagine, my own processes for working with LLMs are in a constant state of evolution and flux, much as the technology itself is. 
-
-But although six months have passed since I began using LLMs professionally, a few constants have remained: I'm diligent about recording prompts, outputs, contextual data, and agent configurations and continue to see these as the building blocks for developing process with LLMs.
-
-Therefore, like most of my repos, this is just another open source documentation of (another) step along the road. It will hopefully be succeeded by better 
+Like most users I imagine, my own processes for working with LLMs are in a constant state of evolution and flux, much as the technology itself is. Therefore, I will endeavor to update these documents periodically as my thoughts and processes continue to reshape and, eventually, find expression.
 
 ## Author
 
