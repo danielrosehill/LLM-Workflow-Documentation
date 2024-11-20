@@ -1,3 +1,0 @@
----
-title: "Repo Setup Instructions"
----

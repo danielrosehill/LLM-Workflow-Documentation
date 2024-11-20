@@ -32,9 +32,4 @@ In fact, I spent quite a few months this year working on a Postgres-backed stora
 My feelings and thoughts: for highly interconnected data like LLM data, something like a graph database (or a document database) might better the *type* of data being stored. 
 
 Of course, vector databases as a common element in AI and LLM work too. They are commonly integrated in stacks alongside more conventional databases,
-
-## Keyboard macros and/or hardware (macropads, etc)
-
-## Voice control tools (for the desktop)
-
-## Lots of coffee
+ 

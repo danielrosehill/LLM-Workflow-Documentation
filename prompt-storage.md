@@ -92,10 +92,10 @@ PromptLibrary/
 ├── Final/
 │   └── approved_prompt.md
 └── Notes/
-    ├── feedback_round_1.md
-    ├── feedback_round_2.md
-    └── feedback_summary.md
- ```   
+├── feedback_round_1.md
+├── feedback_round_2.md
+└── feedback_summary.md
+```   
 
 ## Prompt to output links
 
@@ -108,3 +108,5 @@ If you're managing your LLM workspace using flat files (say, Obsidian, VS Code) 
 ## Prompt Snippets
 
 In addition to full prompts, you can also consider adding prompts snippets.
+
+Centralising these between individual workflow repositories can also work well.
