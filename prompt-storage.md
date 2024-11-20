@@ -45,8 +45,8 @@ Prompting can be a great collaborative process and keeping a prompt library in m
     - prompt2.md (archived draft)
 
 - /version-control
-  - changelog.md   # Tracks changes across versions.
-  - version-history.md   # Detailed history of each version.
+  - changelog.md    
+  - version-history.md   
 ```
 
 ## Using JSON for prompt storage
@@ -96,3 +96,12 @@ PromptLibrary/
     ├── feedback_round_2.md
     └── feedback_summary.md
  ```   
+
+## Prompt to output links
+
+There's a good reason why linking prompts to the outputs they generate is important:
+
+You can access prompt performance by seeing what *results* you got from them!
+
+If you're managing your LLM workspace using flat files (say, Obsidian, VS Code) a common convention is to use `YAML` frontmatter to note parameter elements, including backlinks.
+
