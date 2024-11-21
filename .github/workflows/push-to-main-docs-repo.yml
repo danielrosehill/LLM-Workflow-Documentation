@@ -1,18 +1,13 @@
-name: Notify Parent Repo on Push
+name: Trigger Netlify Build
 
 on:
   push:
     branches:
-      - main   
+      - main
 
 jobs:
-  dispatch:
+  notify-netlify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Parent Repo Workflow
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.PAT }}   
-          repository: danielrosehill/Documetation-Root-Repo   
-          event-type: update-submodule
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+      - name: Trigger Netlify Build Hook
+        run: curl -X POST -d '{}' ${{ secrets.NETLIFY_BUILD_HOOK_URL }}
